@@ -42,7 +42,60 @@ const vue_app = Vue.createApp({
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            getMonthText(dateArray){
+                  let month = ""
+                  switch (dateArray[1]) {
+                        case 1:
+                              month = "January"
+                               break
+                        case 2:
+                              month = "February"
+                              break
+                        case 3:
+                              month = "March"
+                              break
+                        case 4:
+                              month = "April"
+                               break
+                        case 5:
+                              month = "May"
+                              break
+                        case 6:
+                              month = "June"
+                              break
+                        case 7:
+                              month = "July"
+                              break
+                        case 8:
+                              month = "August"
+                               break
+                        case 9:
+                              month = "September"
+                              break
+                        case 10:
+                              month = "October"
+                              break
+                        case 11:
+                              month = "November"
+                               break
+                        case 12:
+                              month = "December"  
+                  }
+                  return month + " " + dateArray[2] + "," + dateArray[0]
+            },
+            posterClick(movie){
+                  movie.posterindex++
+                  if (movie.posterindex > movie.posters.length - 1){
+                        movie.posterindex = 0
+                  }
+            },
+                  
+            timeText(min){
+                  let hours = Math.floor(min / 60)
+                  let minutes = min % 60
+                  return hours + 'h ' + minutes + 'm '
+            }
       }
-})
+}) 
 
 vue_app.mount("#vue_app")
