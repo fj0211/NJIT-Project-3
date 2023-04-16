@@ -5,7 +5,9 @@ body {
     padding: 0;
     width: 100%;
     overflow: auto;
-    background-image: url(img/geometry.jpg);
+    background-image: url("https://muralsyourway.vtexassets.com/arquivos/ids/233988/Movie-Theater-Seating-Wall-Mural.jpg?v=638165403761070000");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* This stylizes the header area */
@@ -19,7 +21,7 @@ body {
 
 /* This stylizes the main page area */
 .main {
-    background-color: #f2f2f2;
+    background-color: #ee6969;
     padding: 40px 0;
 }
 
@@ -30,18 +32,18 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 0;
-    background-color:#dddddd;
+    background-color:#ee8585;
 }
 .thumbnail img {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 5px;
-    border: 2px dashed black;
+    border: 2px dashed white;
 }
 
 /* This stylizes your "Poster X of Y" text */
 .imageInfo {
-	color: #959595;
+	color: white;
 	font-style: italic;
 	font-size: x-small;
 	float: right;
@@ -51,21 +53,21 @@ body {
 /* This stylizes your Title and Rating Text */
 .title,
 .released {
-    color: #444;
+    color: white;
     margin: 0;
     font-size: 18px;
     font-weight: 800;
 }
 .released,
 .rated {
-    color: #5d5d5d;
+    color: white;
     font-size: 14px;
     font-weight: 200;
 }
 
 /* This shapes your IMDB score area */
 .score {
-    background-color: #39D1B4;
+    background-color: #169e21;
     color: #fff;
     font-size: 18px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);

@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Joker",
+            "iscore": 8.4,
+            "rating": "R",
+            "runtime": 122,
+            "released": [2019, 10, 4],
+            "country": "USA",
+            "posters": ["img/jokermovieposter.jpg"],
+            "imdb": "https://www.imdb.com/title/tt7286456/",
+            "website": "https://www.joker.movie/",
+            "likes": 904,
+            "dislikes": 62,
+            "posterindex": 0
+      },
+      {
+            "title": "Olympus Has Fallen",
+            "iscore": 6.5,
+            "rating": "R",
+            "runtime": 119,
+            "released": [2013, 3, 18],
+            "country": "USA",
+            "posters": ["img/olympushasfallen.jpg"],
+            "imdb": "https://www.imdb.com/title/tt2302755/",
+            "website": "https://www.sonypictures.com/movies/olympushasfallen",
+            "likes": 642,
+            "dislikes": 92,
+            "posterindex": 0
+      },
+      {
+            "title": "Sinister 2",
+            "iscore": 5.3,
+            "rating": "R",
+            "runtime": 97,
+            "released": [2015, 8, 21],
+            "country": "USA",
+            "posters": ["img/sinistertwo.jpg"],
+            "imdb": "https://www.imdb.com/title/tt2752772/",
+            "website": "https://www.imdb.com/title/tt2752772/",
+            "likes": 542,
+            "dislikes": 399,
+            "posterindex": 0
       }
 ]
