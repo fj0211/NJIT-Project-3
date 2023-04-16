@@ -80,6 +80,26 @@ body {
 }
 
 /* This contains your like and dislike buttons */
+.dislikes{
+    background-color: #f65a5b;
+    color: white;
+}
+
+.dislikes:hover{
+    background-color: #fdd6d6;
+    color: #F65A5B;
+}
+
+.likes {
+    background-color: #008700;
+    color: white;
+}
+
+.likes:hover {
+    background-color: #9edd87;
+    color: #008700;
+}
+
 .social {
     text-align: right;
     -webkit-user-select: none;
@@ -90,9 +110,9 @@ body {
     top: -20px;
 }
 
+
 /* This shapes your like and dislike buttons */
-.likes,
-.dislikes {
+.likes, .dislikes {
     cursor: pointer;
     display: inline-block;
     font-size: 15px;
